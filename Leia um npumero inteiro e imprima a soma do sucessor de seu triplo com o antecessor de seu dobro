@@ -1,0 +1,7 @@
+# 32 - Leia um npumero inteiro e imprima a soma do sucessor de seu triplo com o antecessor de seu dobro
+
+n = int(input('Informe um numero inteiro: '))
+n1 = n * 3 + 1
+n2 = n * 2 - 1
+n3 = n1 + n2
+print(f'O valor da soma é: {n3}')
